@@ -36,7 +36,6 @@
             this.mephobiaButton6 = new Theme.MephobiaButton();
             this.mephobiaButton5 = new Theme.MephobiaButton();
             this.comboBox1 = new Theme.MephobiaComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mephobiaButton4 = new Theme.MephobiaButton();
             this.checkBox1 = new Theme.MephobiaCheckBox();
             this.mephobiaSeparator1 = new Theme.MephobiaSeparator();
@@ -48,7 +47,6 @@
             this.mephobiaButton2 = new Theme.MephobiaButton();
             this.mephobiaButton1 = new Theme.MephobiaButton();
             this.mephobiaTheme1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.mephobiaGroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +60,6 @@
             this.mephobiaTheme1.Controls.Add(this.mephobiaButton6);
             this.mephobiaTheme1.Controls.Add(this.mephobiaButton5);
             this.mephobiaTheme1.Controls.Add(this.comboBox1);
-            this.mephobiaTheme1.Controls.Add(this.pictureBox1);
             this.mephobiaTheme1.Controls.Add(this.mephobiaButton4);
             this.mephobiaTheme1.Controls.Add(this.checkBox1);
             this.mephobiaTheme1.Controls.Add(this.mephobiaSeparator1);
@@ -77,12 +74,13 @@
             this.mephobiaTheme1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.mephobiaTheme1.Image = null;
             this.mephobiaTheme1.Location = new System.Drawing.Point(0, 0);
+            this.mephobiaTheme1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaTheme1.Movable = true;
             this.mephobiaTheme1.Name = "mephobiaTheme1";
             this.mephobiaTheme1.NoRounding = false;
             this.mephobiaTheme1.ShowIcon = true;
             this.mephobiaTheme1.Sizable = false;
-            this.mephobiaTheme1.Size = new System.Drawing.Size(404, 245);
+            this.mephobiaTheme1.Size = new System.Drawing.Size(360, 224);
             this.mephobiaTheme1.SmartBounds = true;
             this.mephobiaTheme1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.mephobiaTheme1.TabIndex = 0;
@@ -96,9 +94,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Gold;
-            this.label1.Location = new System.Drawing.Point(292, 77);
+            this.label1.Location = new System.Drawing.Point(219, 73);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 19);
+            this.label1.Size = new System.Drawing.Size(82, 13);
             this.label1.TabIndex = 16;
             this.label1.Text = "Select Account";
             // 
@@ -108,10 +107,11 @@
             this.checkBox2.Customization = "AAAA/yAatP8gGrTIHh4e/xkZGf////8Pqqqq/w==";
             this.checkBox2.Font = new System.Drawing.Font("Verdana", 8F);
             this.checkBox2.Image = null;
-            this.checkBox2.Location = new System.Drawing.Point(254, 157);
+            this.checkBox2.Location = new System.Drawing.Point(190, 140);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.NoRounding = false;
-            this.checkBox2.Size = new System.Drawing.Size(137, 16);
+            this.checkBox2.Size = new System.Drawing.Size(155, 16);
             this.checkBox2.TabIndex = 15;
             this.checkBox2.Text = "Auto Acc Login";
             this.checkBox2.Transparent = false;
@@ -122,10 +122,11 @@
             this.mephobiaButton7.Customization = "KCgo/xQUFP+qqqr/";
             this.mephobiaButton7.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaButton7.Image = null;
-            this.mephobiaButton7.Location = new System.Drawing.Point(339, 128);
+            this.mephobiaButton7.Location = new System.Drawing.Point(298, 117);
+            this.mephobiaButton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaButton7.Name = "mephobiaButton7";
             this.mephobiaButton7.NoRounding = false;
-            this.mephobiaButton7.Size = new System.Drawing.Size(52, 23);
+            this.mephobiaButton7.Size = new System.Drawing.Size(47, 19);
             this.mephobiaButton7.TabIndex = 14;
             this.mephobiaButton7.Text = "Delete";
             this.mephobiaButton7.Transparent = false;
@@ -136,10 +137,11 @@
             this.mephobiaButton6.Customization = "KCgo/xQUFP+qqqr/";
             this.mephobiaButton6.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaButton6.Image = null;
-            this.mephobiaButton6.Location = new System.Drawing.Point(296, 128);
+            this.mephobiaButton6.Location = new System.Drawing.Point(245, 117);
+            this.mephobiaButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaButton6.Name = "mephobiaButton6";
             this.mephobiaButton6.NoRounding = false;
-            this.mephobiaButton6.Size = new System.Drawing.Size(36, 23);
+            this.mephobiaButton6.Size = new System.Drawing.Size(47, 19);
             this.mephobiaButton6.TabIndex = 13;
             this.mephobiaButton6.Text = "Edit";
             this.mephobiaButton6.Transparent = false;
@@ -150,10 +152,11 @@
             this.mephobiaButton5.Customization = "KCgo/xQUFP+qqqr/";
             this.mephobiaButton5.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaButton5.Image = null;
-            this.mephobiaButton5.Location = new System.Drawing.Point(254, 128);
+            this.mephobiaButton5.Location = new System.Drawing.Point(190, 117);
+            this.mephobiaButton5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaButton5.Name = "mephobiaButton5";
             this.mephobiaButton5.NoRounding = false;
-            this.mephobiaButton5.Size = new System.Drawing.Size(36, 23);
+            this.mephobiaButton5.Size = new System.Drawing.Size(48, 19);
             this.mephobiaButton5.TabIndex = 12;
             this.mephobiaButton5.Text = "New";
             this.mephobiaButton5.Transparent = false;
@@ -167,35 +170,24 @@
             this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.ItemHeight = 17;
-            this.comboBox1.Location = new System.Drawing.Point(254, 99);
+            this.comboBox1.Location = new System.Drawing.Point(190, 90);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(138, 23);
+            this.comboBox1.Size = new System.Drawing.Size(155, 23);
             this.comboBox1.TabIndex = 11;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::WoW_Realmlister_v3.Properties.Resources.Untitled_2;
-            this.pictureBox1.Location = new System.Drawing.Point(174, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(117, 27);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // mephobiaButton4
             // 
             this.mephobiaButton4.Customization = "KCgo/xQUFP+qqqr/";
             this.mephobiaButton4.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaButton4.Image = null;
-            this.mephobiaButton4.Location = new System.Drawing.Point(255, 40);
+            this.mephobiaButton4.Location = new System.Drawing.Point(191, 43);
+            this.mephobiaButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaButton4.Name = "mephobiaButton4";
             this.mephobiaButton4.NoRounding = false;
-            this.mephobiaButton4.Size = new System.Drawing.Size(138, 28);
+            this.mephobiaButton4.Size = new System.Drawing.Size(154, 23);
             this.mephobiaButton4.TabIndex = 10;
-            this.mephobiaButton4.Text = "Get Version";
+            this.mephobiaButton4.Text = "Update App";
             this.mephobiaButton4.Transparent = false;
             this.mephobiaButton4.Click += new System.EventHandler(this.mephobiaButton4_Click_1);
             // 
@@ -205,10 +197,11 @@
             this.checkBox1.Customization = "AAAA/yAatP8gGrTIHh4e/xkZGf////8Pqqqq/w==";
             this.checkBox1.Font = new System.Drawing.Font("Verdana", 8F);
             this.checkBox1.Image = null;
-            this.checkBox1.Location = new System.Drawing.Point(254, 179);
+            this.checkBox1.Location = new System.Drawing.Point(191, 162);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.NoRounding = false;
-            this.checkBox1.Size = new System.Drawing.Size(137, 16);
+            this.checkBox1.Size = new System.Drawing.Size(154, 16);
             this.checkBox1.TabIndex = 9;
             this.checkBox1.Text = "Auto Clear Cache";
             this.checkBox1.Transparent = false;
@@ -219,10 +212,11 @@
             this.mephobiaSeparator1.Customization = "AAAA/yAatP8=";
             this.mephobiaSeparator1.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaSeparator1.Image = null;
-            this.mephobiaSeparator1.Location = new System.Drawing.Point(12, 201);
+            this.mephobiaSeparator1.Location = new System.Drawing.Point(9, 173);
+            this.mephobiaSeparator1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaSeparator1.Name = "mephobiaSeparator1";
             this.mephobiaSeparator1.NoRounding = false;
-            this.mephobiaSeparator1.Size = new System.Drawing.Size(237, 5);
+            this.mephobiaSeparator1.Size = new System.Drawing.Size(178, 5);
             this.mephobiaSeparator1.TabIndex = 7;
             this.mephobiaSeparator1.Text = "mephobiaSeparator1";
             this.mephobiaSeparator1.Transparent = false;
@@ -233,10 +227,11 @@
             this.mephobiaControlBox_TwoButtons1.Customization = "Pj4+/ywsLP8bGxv/qqqq/wAAAFo=";
             this.mephobiaControlBox_TwoButtons1.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaControlBox_TwoButtons1.Image = null;
-            this.mephobiaControlBox_TwoButtons1.Location = new System.Drawing.Point(340, 2);
+            this.mephobiaControlBox_TwoButtons1.Location = new System.Drawing.Point(312, 2);
+            this.mephobiaControlBox_TwoButtons1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaControlBox_TwoButtons1.Name = "mephobiaControlBox_TwoButtons1";
             this.mephobiaControlBox_TwoButtons1.NoRounding = false;
-            this.mephobiaControlBox_TwoButtons1.Size = new System.Drawing.Size(53, 28);
+            this.mephobiaControlBox_TwoButtons1.Size = new System.Drawing.Size(40, 23);
             this.mephobiaControlBox_TwoButtons1.TabIndex = 6;
             this.mephobiaControlBox_TwoButtons1.Text = "mephobiaControlBox_TwoButtons1";
             this.mephobiaControlBox_TwoButtons1.Transparent = false;
@@ -248,10 +243,11 @@
             this.PlayButton.Enabled = false;
             this.PlayButton.Font = new System.Drawing.Font("Verdana", 8F);
             this.PlayButton.Image = null;
-            this.PlayButton.Location = new System.Drawing.Point(254, 199);
+            this.PlayButton.Location = new System.Drawing.Point(191, 182);
+            this.PlayButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PlayButton.Name = "PlayButton";
             this.PlayButton.NoRounding = false;
-            this.PlayButton.Size = new System.Drawing.Size(138, 35);
+            this.PlayButton.Size = new System.Drawing.Size(154, 28);
             this.PlayButton.TabIndex = 5;
             this.PlayButton.Text = "Select Realmlist!";
             this.PlayButton.Transparent = false;
@@ -264,12 +260,13 @@
             this.mephobiaGroupBox1.Customization = "KCgo/xQUFP+qqqr/AAAA/w==";
             this.mephobiaGroupBox1.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaGroupBox1.Image = null;
-            this.mephobiaGroupBox1.Location = new System.Drawing.Point(12, 40);
+            this.mephobiaGroupBox1.Location = new System.Drawing.Point(9, 42);
+            this.mephobiaGroupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaGroupBox1.Movable = true;
             this.mephobiaGroupBox1.Name = "mephobiaGroupBox1";
             this.mephobiaGroupBox1.NoRounding = false;
             this.mephobiaGroupBox1.Sizable = true;
-            this.mephobiaGroupBox1.Size = new System.Drawing.Size(237, 155);
+            this.mephobiaGroupBox1.Size = new System.Drawing.Size(178, 126);
             this.mephobiaGroupBox1.SmartBounds = true;
             this.mephobiaGroupBox1.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.mephobiaGroupBox1.TabIndex = 4;
@@ -286,9 +283,10 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.IntegralHeight = false;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(0, 24);
+            this.listBox1.Location = new System.Drawing.Point(0, 20);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(237, 131);
+            this.listBox1.Size = new System.Drawing.Size(178, 106);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -298,10 +296,11 @@
             this.mephobiaButton3.Customization = "KCgo/xQUFP+qqqr/";
             this.mephobiaButton3.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaButton3.Image = null;
-            this.mephobiaButton3.Location = new System.Drawing.Point(174, 211);
+            this.mephobiaButton3.Location = new System.Drawing.Point(131, 182);
+            this.mephobiaButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaButton3.Name = "mephobiaButton3";
             this.mephobiaButton3.NoRounding = false;
-            this.mephobiaButton3.Size = new System.Drawing.Size(75, 23);
+            this.mephobiaButton3.Size = new System.Drawing.Size(56, 28);
             this.mephobiaButton3.TabIndex = 3;
             this.mephobiaButton3.Text = "Delete";
             this.mephobiaButton3.Transparent = false;
@@ -313,10 +312,11 @@
             this.mephobiaButton2.Customization = "KCgo/xQUFP+qqqr/";
             this.mephobiaButton2.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaButton2.Image = null;
-            this.mephobiaButton2.Location = new System.Drawing.Point(93, 211);
+            this.mephobiaButton2.Location = new System.Drawing.Point(71, 182);
+            this.mephobiaButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaButton2.Name = "mephobiaButton2";
             this.mephobiaButton2.NoRounding = false;
-            this.mephobiaButton2.Size = new System.Drawing.Size(75, 23);
+            this.mephobiaButton2.Size = new System.Drawing.Size(56, 28);
             this.mephobiaButton2.TabIndex = 2;
             this.mephobiaButton2.Text = "Edit";
             this.mephobiaButton2.Transparent = false;
@@ -328,10 +328,11 @@
             this.mephobiaButton1.Customization = "KCgo/xQUFP+qqqr/";
             this.mephobiaButton1.Font = new System.Drawing.Font("Verdana", 8F);
             this.mephobiaButton1.Image = null;
-            this.mephobiaButton1.Location = new System.Drawing.Point(12, 211);
+            this.mephobiaButton1.Location = new System.Drawing.Point(9, 182);
+            this.mephobiaButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mephobiaButton1.Name = "mephobiaButton1";
             this.mephobiaButton1.NoRounding = false;
-            this.mephobiaButton1.Size = new System.Drawing.Size(75, 23);
+            this.mephobiaButton1.Size = new System.Drawing.Size(56, 28);
             this.mephobiaButton1.TabIndex = 1;
             this.mephobiaButton1.Text = "New";
             this.mephobiaButton1.Transparent = false;
@@ -339,12 +340,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(404, 245);
+            this.ClientSize = new System.Drawing.Size(360, 224);
             this.Controls.Add(this.mephobiaTheme1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WoW Realmlister";
@@ -352,7 +354,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.mephobiaTheme1.ResumeLayout(false);
             this.mephobiaTheme1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.mephobiaGroupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -368,7 +369,6 @@
         private Theme.MephobiaButton PlayButton;
         private Theme.MephobiaControlBox_TwoButtons mephobiaControlBox_TwoButtons1;
         private Theme.MephobiaSeparator mephobiaSeparator1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private Theme.MephobiaListbox listBox1;
         private Theme.MephobiaCheckBox checkBox1;
         private Theme.MephobiaButton mephobiaButton4;

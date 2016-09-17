@@ -18,7 +18,7 @@
       <Value Profile="(Default)">https://github.com/Asandru/Realmlister-v3/releases</Value>
     </Setting>
     <Setting Name="app_version" Type="System.Int32" Scope="Application">
-      <Value Profile="(Default)">301</Value>
+      <Value Profile="(Default)">302</Value>
     </Setting>
     <Setting Name="auto_account_login" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
