@@ -1,4 +1,4 @@
-Copyright (C) 2014 FrostLords <http://www.frostlords.com/>
+Copyright (C) 2014 FrostLords <http://asandru.clanz.co/>
   
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
